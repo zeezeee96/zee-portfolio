@@ -1578,6 +1578,14 @@ a:focus {
   color: #414141;
 }
 
+@media (max-width: 767.98px) {
+  .footer .footer-menu {
+    flex-direction: column;
+  }
+  .footer .footer-menu p {
+    border: none;
+  }
+}
 @media (max-width: 575.98px) {
   .footer .footer-info h2 {
     margin-bottom: 20px;
@@ -1594,5 +1602,9 @@ a:focus {
     font-size: 16px;
     line-height: 16px;
     padding: 0 5px;
+    word-break: break-word;
+  }
+  .footer .copyright p {
+    margin: 0 50px;
   }
 }
