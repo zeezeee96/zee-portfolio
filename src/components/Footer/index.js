@@ -12,8 +12,8 @@ const Footer = () => {
               <div className="footer-menu">
                 <a href="tel:+923135237774s">
                   <p>+92 313 5237774</p>
-                </a>{" "}
-                |
+                </a>
+
                 <a href="mailto:engr.muhammadaziz96@gmail.com">
                   <p className="noborder">engr.muhammadaziz96@gmail.com</p>
                 </a>
